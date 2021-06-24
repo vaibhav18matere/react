@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-
-export class ClassClick extends Component {
+class ClassClick extends Component {
 
     ClickHandler() {
         console.log("class btn clicked")
     }
-
 
     render() {
         return (
@@ -18,3 +16,6 @@ export class ClassClick extends Component {
 
 export default ClassClick
 
+
+
+//event handling

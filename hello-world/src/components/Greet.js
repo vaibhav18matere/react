@@ -1,10 +1,9 @@
 import React from 'react';
 
-const Greet = (props) => {
+const Greet = ({ name, heroName }) => {
     return (
         <div>
-            <h1>Hello {props.name} a.k.a {props.name}</h1>
-            {props.children}
+            <h6> {name} function based component and de-structuring {heroName}</h6>
         </div>
     )
 }
@@ -13,4 +12,5 @@ export default Greet;
 
 
 
-// props
+// props 
+//de-structuring in function component

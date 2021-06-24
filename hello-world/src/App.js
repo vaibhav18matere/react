@@ -7,6 +7,7 @@ import Toggle from './components/Toggle';
 import ClassClick from './components/ClassClick';
 import FunctionClick from './components/FunctionClick';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -17,11 +18,13 @@ function App() {
       <Welcome name="Bruce" heroName="Batman" />
       <Welcome name="Clark" heroName="Superman" />
       <Welcome name="Diana" heroName="Wonder Women" />
-      <Toggle />
-      <Message />
-      {/* <img src={logo} /> */}
       <ClassClick />
       <FunctionClick />
+      <Message />
+      <Counter />
+      <img src={logo} alt="logo-react" />
+      <Hello />
+      <Toggle />
     </div>
   );
 }

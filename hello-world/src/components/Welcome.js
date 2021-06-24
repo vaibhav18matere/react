@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 
 class Welcome extends Component {
     render() {
+
+        const { name, heroName } = this.props
+
         return (
             <div>
-                <h1>
-                    welcome {this.props.name} a.k.a. {this.props.heroName}
-                </h1>
+                <h5>
+                    {name} class based component and de-structuring {heroName}
+                </h5>
             </div>
         )
     }
@@ -15,4 +18,6 @@ class Welcome extends Component {
 export default Welcome;
 
 
-// props
+
+// props 
+//de-structuring in class component
