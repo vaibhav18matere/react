@@ -10,6 +10,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import Eb from './components/Eb'
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,8 @@ function App() {
       <Counter />
       <Eb />
       <ParentComponent />
+      <UserGreeting />
+
       <img src={logo} alt="logo-react" />
       <Hello />
       <Toggle />
