@@ -8,7 +8,8 @@ import ClassClick from './components/ClassClick';
 import FunctionClick from './components/FunctionClick';
 import Message from './components/Message';
 import Counter from './components/Counter';
-
+import Eb from './components/Eb'
+import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,8 @@ function App() {
       <FunctionClick />
       <Message />
       <Counter />
+      <Eb />
+      <ParentComponent />
       <img src={logo} alt="logo-react" />
       <Hello />
       <Toggle />

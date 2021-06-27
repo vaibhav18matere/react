@@ -1,29 +1,30 @@
-import React, { Component } from 'react'
-
-
+import React, { Component } from 'react';
+import ChildParent from './ChildParent';
 class ParentComponent extends Component {
 
     constructor(props) {
         super(props)
 
         this.state = {
-            parentName: 'parent'
+            parentName: "parent"
         }
-
         this.greetParent = this.greetParent.bind(this)
     }
 
-    greetParent() {
-        console.log(`hello from ${this.state.parentName}`)
+    greetParent(ChildName) {
+        alert(`hello! ${this.state.parentName} from ${ChildName}`)
     }
 
     render() {
         return (
             <div>
-                <button></button>
+                <ChildParent greetHandler={this.greetParent} />
             </div>
         )
     }
 }
 
 export default ParentComponent
+
+
+//method as a props
