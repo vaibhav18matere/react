@@ -11,6 +11,7 @@ import Counter from './components/Counter';
 import Eb from './components/Eb'
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,7 @@ function App() {
       <Eb />
       <ParentComponent />
       <UserGreeting />
-
+      <NameList />
       <img src={logo} alt="logo-react" />
       <Hello />
       <Toggle />
