@@ -13,3 +13,6 @@ function Person({ person }) {
 }
 
 export default Person
+
+
+//List Rendering
